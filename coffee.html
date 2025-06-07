@@ -1,10 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>coffee website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="coffee.css">
 </head>
 <body>
-$END$
+<header>
+    <div class="navbar section-content">
+        <a href="#" class="nav_logo">
+            <h2 class="logo">🍕☕ PIZZA & COFFEE</h2>
+        </a>
+        <ul class="nav-list">
+            <button id="menu-close-button" class="fas fa-times"></button>
+            <li class="nav-item">
+                <a href="" class="nav_link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav_link">About us</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu" class="nav_link">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonials" class="nav_link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a href="#gallery" class="nav_link">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav_link">Contact</a>
+            </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+    </div>
+</header>
+<main>
+    <div class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Best Slice&Sip</h2>
+                <h3 class="subtitle">Make your day great with our special pizza and coffee!</h3>
+                <p class="description">Welcome to our paradise, where every crust gives joy and every cup sparks happiness</p>
+                <div class="buttons">
+                    <a href="#" class="btn order-now">Order Now</a>
+                    <a href="#" class="btn contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img class="hero-image" src="./images/pablo-pacheco-D3Mag4BKqns-unsplash.jpg" alt="">
+                <img class="hero-image" src="./images/coffee-hero-section.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="about-section" id ="about">
+        <div class="section-content">
+            <div class="about-image-wrapper">
+                <img class="about-image" src="./images/istockphoto-1411696744-612x612.jpg" alt="">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">About Us</h2>
+                <p class="text">In the heart of Lagos, Nigeria, Pizza & Coffee Hut: Slice & Sip buzzes with life on , our cozy hut blends the smoky allure of wood-fired pizza with the rich aroma of locally roasted coffee, inspired by travels and love for Nigerian flavors.
+
+                    Our menu offers hand-tossed pizzas with vibrant toppings like suya-spiced chicken and sweet plantain, paired with bold espresso or creamy lattes . Each bite of our signature “Lagos Heat” pizza ignites the taste buds with a savory kick, while our velvety coffee soothes with nutty warmth.
+
+                    Customers, from tech entrepreneurs to families, leave buzzing, their senses awakened by the fusion of crisp crusts and aromatic brews. “It’s like a party in my mouth!” raves Ada, a regular, her taste buds dancing after a slice and sip. At Slice & Sip, we craft moments of joy, one bite and one cup at a time.
+                </p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-section" id="menu">
+        <div class="section-title">Our Menu</div>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="images/hot-beverages.png" alt="Hot Beverage" class="menu-image">
+                    <h3 class="name">Hot Beverages</h3>
+                    <p class="text">Wide range of steaming hot coffee to make you fresh and light</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/fatima-akram-uU0Anw-8Vsg-unsplash.jpg" alt="Pepperoni Pizza" class="menu-image">
+                    <h3 class="name">Pepperoni Pizza</h3>
+                    <p class="text">Our crispy pepperoni pizza, loaded with bold, spicy toppings, ignites your taste buds. Each bite energizes you, leaving you craving another slice.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/cold-beverages.png" alt="Cold Beverage" class="menu-image">
+                    <h3 class="name">Cold Beverages</h3>
+                    <p class="text">Creamy and frothy cold coffee to make you cool</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/refreshment.png" alt="Refreshment" class="menu-image">
+                    <h3 class="name">Refreshment</h3>
+                    <p class="text">Fruity and icy refreshing drink to feel refresh</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/download.jpg" alt="BBQ Chicken Pizza" class="menu-image">
+                    <h3 class="name">BBQ Chicken Pizza</h3>
+                    <p class="text">Topped with tender, smoky chicken and a crispy crust, ignites your taste buds. Each bite bursts with tangy barbecue sauce, energizing you and leaving you craving another slice.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/special-combo.png" alt="Special Combo" class="menu-image">
+                    <h3 class="name">Special combo</h3>
+                    <p class="text">Your favorite eating and drinking combination</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/desserts.png" alt="Dessert" class="menu-image">
+                    <h3 class="name">Dessert</h3>
+                    <p class="text">Satiate your palate and take yourself on a culinary treat</p>
+                </li>
+                <li class="menu-item">
+                    <img src="images/burger-frenchfries.png" alt="burger & french fries" class="menu-image">
+                    <h3 class="name">Burger & French Fries</h3>
+                    <p class="text">Quick bites to satisfy your small size hunger</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="testimonial-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonial-list swiper-wrapper">
+                    <li class="testimonial swiper-slide">
+                        <img src="images/user-1.jpg" alt="" class="user-image">
+                            <h3 class="name">Ada</h3>
+                        <i class="feedback"> "Loved the Pepperoni pizza so much, was perfectly made"</i>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img src="images/user-2.jpg" alt="" class="user-image">
+                        <h3 class="name">justin</h3>
+                        <i class="feedback"> "The BBQ Chicken Pizza at Slice & Sip is a smoky, tangy delight that makes every visit a treat!""</i>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img src="images/user-3.jpg" alt="" class="user-image">
+                        <h3 class="name">Chidi</h3>
+                        <i class="feedback"> "Slice & Sip’s Lagos Heat pizza sparked my taste buds with its spicy kick; I’m hooked!"</i>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img src="images/user-4.jpg" alt="" class="user-image">
+                        <h3 class="name">Kemi</h3>
+                        <i class="feedback"> "Every sip of their bold espresso and bite of pizza feels like a mini celebration!"</i>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img src="images/user-5.jpg" alt="" class="user-image">
+                        <h3 class="name">Sola</h3>
+                        <i class="feedback"> "I love their chilled mocha; it’s a sweet, chocolatey coffee escape in every sip!"</i>
+                    </li>
+                    </ul>
+
+                    <div class="swiper-slide-button
+                    swiper-pagination"></div>
+                    <div class="swiper-slide-button
+                    swiper-button-prev"></div>
+                    <div class="swiper-slide-button
+                    swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="contact-section" id="contact">
+        <h2 class="section-title">Contact us</h2>
+        <div class="section-content">
+            <ul class="contact-list">
+                <li class ="contact-info">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>123 Adeyemi Avenue, Victoria Island, Lagos, Nigeria</p>
+                </li>
+                <li class ="contact-info">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>slice&sip@pizzacoffeehut.com</p>
+                </li>
+                <li class ="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p> 123 123-81345</p>
+                </li>
+                <li class ="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </li>
+                <li class ="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Saturday: 10:00 AM - 3:00 PM</p>
+                </li>
+                <li class ="contact-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Sunday: Closed</p>
+                </li>
+            </ul>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="form-btn">Send Message</button>
+                </form>
+        </div>
+    </div>
+    <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">Copyright &copy; All Rights Reserved</p>
+            <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Privacy Policy</a>
+                <span class="seperator"></span>
+                <a href="#" class="policy-link">Refund policy</a>
+            </p>
+            </div>
+        </div>
+
+
+    </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="coffee.js"></script>
 </body>
 </html>
